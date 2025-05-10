@@ -1,6 +1,5 @@
-local player = game.Players.LocalPlayer
-local character = script.Parent
-local humanoid = character:WaitForChild("Humanoid")
+local player = game:GetService("Players").LocalPlayer
+local humanoid = player:WaitForChild("Humanoid")
 local runService = game:GetService("RunService")
 
 local lastPuddleTime = 0
